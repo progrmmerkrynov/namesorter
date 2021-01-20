@@ -57,22 +57,32 @@ namespace NamaSpace
     // PARAMETER List<string> l UNTUK VARIABEL LIST
     // YANG AKAN DIURUTKAN
     private static void urutkanLast(List<string> l)
-        {
-            Console.WriteLine("Urutkan nama terakhir:");
-            System.Console.WriteLine();
+    {
+        Console.WriteLine("Urutkan nama terakhir:");
+        System.Console.WriteLine();
 
-            if (l.Capacity != 0)
-            {
-                l.Sort(
-                    (n1, n2) => 
-                    n1.Split(" ")[1].CompareTo(
-                        n2.Split(" ")[1]
-                    )
-                );
-                Console.WriteLine(string.Join(",\n", l));
-            } else
-            {
-                System.Console.WriteLine("List kosong");
-            }
+        // Jika kapasitas list tidak = 0 berarti file tidak kosong
+        if (l.Capacity != 0)
+        {
+            // Urutkan
+            l.Sort(
+                // n1 yaitu parameter elemen list
+                // n2 untuk parameter elemen list lain (berikutnya)
+                (n1, n2) => 
+                // split/pecah elemen list pertama menjadi array berdasar spasi
+                // bandingkan dengan elemen list kedua yang juga displit 
+                // menjadi array berdasar spasi
+                n1.Split(" ")[1].CompareTo(
+                    n2.Split(" ")[1]
+                )
+            );
+            // Cetak ke konsol list baru yang sudah diurutkan diatas
+            // dan gabungkan tiap elemen list yang diakhiri \n (new line)
+            Console.WriteLine(string.Join(",\n", l));
+        } else
+        // jika list kosong maka tidak meneruskan operasi pengurutan
+        {
+            System.Console.WriteLine("List kosong");
         }
+    }
 }
