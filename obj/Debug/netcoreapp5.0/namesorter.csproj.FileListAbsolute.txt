@@ -3,3 +3,14 @@ E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.GeneratedMS
 E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.AssemblyInfoInputs.cache
 E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.AssemblyInfo.cs
 E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.csproj.CoreCompileInputs.cache
+E:\2021\KST\NameSorter\namesorter\bin\Debug\netcoreapp5.0\namesorter.exe
+E:\2021\KST\NameSorter\namesorter\bin\Debug\netcoreapp5.0\namesorter.deps.json
+E:\2021\KST\NameSorter\namesorter\bin\Debug\netcoreapp5.0\namesorter.runtimeconfig.json
+E:\2021\KST\NameSorter\namesorter\bin\Debug\netcoreapp5.0\namesorter.runtimeconfig.dev.json
+E:\2021\KST\NameSorter\namesorter\bin\Debug\netcoreapp5.0\namesorter.dll
+E:\2021\KST\NameSorter\namesorter\bin\Debug\netcoreapp5.0\ref\namesorter.dll
+E:\2021\KST\NameSorter\namesorter\bin\Debug\netcoreapp5.0\namesorter.pdb
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.dll
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\ref\namesorter.dll
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.pdb
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.genruntimeconfig.cache
