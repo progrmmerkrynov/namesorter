@@ -52,4 +52,27 @@ namespace NamaSpace
             Console.WriteLine("Jumlah baris = "+list.Capacity);
         }
     }
+
+    // METODE MENGURUTKAN LIST<STRING>
+    // PARAMETER List<string> l UNTUK VARIABEL LIST
+    // YANG AKAN DIURUTKAN
+    private static void urutkanLast(List<string> l)
+        {
+            Console.WriteLine("Urutkan nama terakhir:");
+            System.Console.WriteLine();
+
+            if (l.Capacity != 0)
+            {
+                l.Sort(
+                    (n1, n2) => 
+                    n1.Split(" ")[1].CompareTo(
+                        n2.Split(" ")[1]
+                    )
+                );
+                Console.WriteLine(string.Join(",\n", l));
+            } else
+            {
+                System.Console.WriteLine("List kosong");
+            }
+        }
 }
