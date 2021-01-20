@@ -1,0 +1,5 @@
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.csprojAssemblyReference.cache
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.GeneratedMSBuildEditorConfig.editorconfig
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.AssemblyInfoInputs.cache
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.AssemblyInfo.cs
+E:\2021\KST\NameSorter\namesorter\obj\Debug\netcoreapp5.0\namesorter.csproj.CoreCompileInputs.cache
